@@ -1,0 +1,23 @@
+Git Bash Commands
+	$ls			\\Shows files in current directory
+	$ls -la			\\list all files in directory 	
+	$git init		\\start tracking local codebase 
+	$git add -A		\\add to the staging area
+	$git status		\\show commit status of files
+	$git commit -m "..."	\\commit files to repository, add comment
+	$git log		\\shows history of commit
+	$touch file.txt		\\create file
+
+
+Ubuntu Push
+	$git diff		\\show changes in the code
+	$git status		\\show commit status of files
+	$git add -A		\\add siles to the staging directory
+	$git status		\\show the files ready to be commited
+	$git commit -m "..."	\\commit with comment
+	$git push origin master	\\push to master. un:OliDavis pw:ghHybrid2015
+
+Ubuntu Pull
+	$git pull origin master	\\pull changes in the master to current repo
+
+
