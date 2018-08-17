@@ -14,8 +14,8 @@
 #    
 #print(mult_iter(3,4))
 #
-##==============================================================================
-#
+###==============================================================================
+##
 ##Iteration
 #def factorial_iter(n):
 #    prod = 1
@@ -125,7 +125,10 @@
 
 
 #==============================================================================
-    ##DICTIONARIES##
+
+
+
+    #DICTIONARIES##
 
 def get_grade(student, name_list, grade_list, course_list):
     i = name_list.index(student)
@@ -147,11 +150,6 @@ grades.keys()           #get an iterable that acts like a tuple of all keys
 grades.values()         #get an iterable that acts like a tuple of all values
 
 d = {4:{1:0}, (1,3):"twelve", 'const':[3.14,2.7,8.44]}
-
-
-
-
-
 
 
 
